@@ -1,7 +1,7 @@
-export default function Count() {
+export default function Count({ count }) {
   return (
     <div className="count">
-      <span>0</span>
+      <span>{count}</span>
     </div>
   );
 }
